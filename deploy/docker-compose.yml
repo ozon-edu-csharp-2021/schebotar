@@ -14,7 +14,5 @@ services:
     image: 'ghcr.io/ozon-edu-csharp-2021/supply-service:main'
     hostname: supply_service
   merchandise-service:
-    build: ..
-    hostname: merchandise_service
-      
-      
+    build: ../src/merchandise-service/.
+    hostname: merchandise_service    

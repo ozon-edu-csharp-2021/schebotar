@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OzonEdu.MerchApi", "src\OzonEdu.MerchApi\OzonEdu.MerchApi.csproj", "{CA465D7D-FFCE-4370-B303-0DB990EB811E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "merchandise-service", "src\merchandise-service\merchandise-service.csproj", "{CA465D7D-FFCE-4370-B303-0DB990EB811E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F3627DAB-DCC5-4E34-ACA3-24E0CCC98DDA}"
 EndProject
@@ -8,10 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{AAA0E7
 ProjectSection(SolutionItems) = preProject
 	README.md = README.md
 	.gitignore = .gitignore
-	dockerfile = dockerfile
 EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B2442D0C-E3F0-4067-B9C1-18EE6CD2EE74}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{FB67AAD4-DC32-4877-9D37-4D3C1908F52F}"
 ProjectSection(SolutionItems) = preProject
