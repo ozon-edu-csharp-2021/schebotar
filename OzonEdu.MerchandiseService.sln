@@ -1,19 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "merchandise-service", "src\merchandise-service\merchandise-service.csproj", "{CA465D7D-FFCE-4370-B303-0DB990EB811E}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MerchandiseService", "src\MerchandiseService\MerchandiseService.csproj", "{CA465D7D-FFCE-4370-B303-0DB990EB811E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F3627DAB-DCC5-4E34-ACA3-24E0CCC98DDA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{AAA0E727-B45F-4D35-972D-6D3EFF04C9D1}"
-ProjectSection(SolutionItems) = preProject
-	README.md = README.md
-	.gitignore = .gitignore
-EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{FB67AAD4-DC32-4877-9D37-4D3C1908F52F}"
-ProjectSection(SolutionItems) = preProject
-	deploy\docker-compose.yml = deploy\docker-compose.yml
-EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		deploy\docker-compose.yml = deploy\docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,7 +29,13 @@ Global
 		{CA465D7D-FFCE-4370-B303-0DB990EB811E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA465D7D-FFCE-4370-B303-0DB990EB811E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CA465D7D-FFCE-4370-B303-0DB990EB811E} = {F3627DAB-DCC5-4E34-ACA3-24E0CCC98DDA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89DF9686-17C0-4A12-835E-B6CCEA1663E5}
 	EndGlobalSection
 EndGlobal
